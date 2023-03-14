@@ -1,4 +1,4 @@
-input = list()
+data = list()
 
 with open('Day 1\input.txt') as file:
     input = file.read().splitlines()
@@ -6,7 +6,7 @@ with open('Day 1\input.txt') as file:
 calorie_count = 0
 list_of_calories = list()
 
-for i in input:
+for i in data:
     if i == '':
         list_of_calories.append(calorie_count)
         calorie_count = 0
